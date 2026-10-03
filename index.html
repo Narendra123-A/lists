@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListCraft - Mastering HTML Lists & CSS Styling</title>
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION: Contains the main title and introduction -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="logo">List<span class="highlight">Craft</span></h1>
+            <p class="subtitle"></p>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT CONTAINER: Holds the 3 list cards in a grid -->
+    <main class="container">
+
+        <!-- ======================================================= -->
+        <!-- SECTION 1: UNORDERED LIST (<ul>) - My Daily Tasks       -->
+        <!-- Used when the sequence or order of items doesn't matter  -->
+        <!-- ======================================================= -->
+        <section class="card card-daily">
+            <div class="card-header">
+                <span class="badge"> </span>
+                <h2>1. My Daily Tasks</h2>
+            </div>
+
+            <p class="card-description">
+
+            </p>
+
+            <!-- HTML COMMENT: <ul> creates an unordered list. Each item is inside an <li> element. -->
+            <ul class="task-list">
+                <li>Wake up early</li>
+                <li>Exercise</li>
+                <li>Study Java</li>
+                <li>Practice HTML and CSS</li>
+                <li>Work on projects</li>
+            </ul>
+        </section>
+
+        <!-- ======================================================= -->
+        <!-- SECTION 2: ORDERED LIST (<ol>) - My Learning Roadmap    -->
+        <!-- Used when items follow a specific numerical sequence    -->
+        <!-- ======================================================= -->
+        <section class="card card-roadmap">
+            <div class="card-header">
+                <span class="badge"> </span>
+                <h2>2. My Learning Roadmap</h2>
+            </div>
+
+            <p class="card-description">
+
+            </p>
+
+            <!-- HTML COMMENT: <ol> creates an ordered list. Browsers automatically number each <li> element. -->
+            <ol class="roadmap-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>React</li>
+            </ol>
+        </section>
+
+        <!-- ======================================================= -->
+        <!-- SECTION 3: DESCRIPTION LIST (<dl>) - My Skills          -->
+        <!-- Used for name-value pairs, terms & definitions         -->
+        <!-- ======================================================= -->
+        <section class="card card-skills">
+            <div class="card-header">
+                <span class="badge"></span>
+                <h2>3. My Skills</h2>
+            </div>
+
+            <p class="card-description">
+
+            </p>
+
+            <!-- HTML COMMENT: <dl> is the description list wrapper.
+                 <dt> is the term/name, and <dd> is the description/value. -->
+            <dl class="skills-list">
+                <div class="skill-item">
+                    <dt>HTML</dt>
+                    <dd>Structure of web pages</dd>
+                </div>
+                <div class="skill-item">
+                    <dt>CSS</dt>
+                    <dd>Styling and designing web pages</dd>
+                </div>
+                <div class="skill-item">
+                    <dt>Java</dt>
+                    <dd>Object-oriented programming</dd>
+                </div>
+                <div class="skill-item">
+                    <dt>Python</dt>
+                    <dd>Backend and AI development</dd>
+                </div>
+                <div class="skill-item">
+                    <dt>SQL</dt>
+                    <dd>Database management</dd>
+                </div>
+            </dl>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION: Closing notes and credits -->
+    <footer class="main-footer">
+        <p></p>
+    </footer>
+
+</body>
+
+</html>
